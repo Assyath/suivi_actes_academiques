@@ -1,0 +1,89 @@
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.admin-header h1 {
+  margin: 0;
+  color: #003366;
+}
+
+.admin-header button {
+  padding: 10px 20px;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.search-section label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.search-section input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.table-section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-section h2 {
+  margin-top: 0;
+  color: #003366;
+}
+
+table select {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.statut {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.statut-déposée {
+  background-color: #e3f2fd;
+  color: #1566c0;
+}
+
+
+.statut-en-cours-de-traitement {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.statut-en-cours {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.statut-prêt {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.statut-prête-à-retirer {
+  background-color: #d4edda;
+  color: #155724;
+}
