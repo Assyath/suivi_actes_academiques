@@ -124,9 +124,6 @@ function AdminDashboard({ onLogout }) {
     <div className="container">
       <header className="admin-header">
         <h1>Tableau de bord Admin</h1>
-        <button className="secondary" onClick={onLogout}>
-          Déconnexion
-        </button>
       </header>
 
       <main>
